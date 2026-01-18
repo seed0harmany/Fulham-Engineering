@@ -41,7 +41,7 @@
     <div class="header-bg"></div>
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-     <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="../index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="../assets/img/logo001.png" alt="">
       </a>
@@ -49,22 +49,31 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <!-- <li><a href="index.html" class="active">Home</a></li> -->
-          <li><a href="../services.html">Services</a></li>
-          <li><a href="../markets.html">Markets</a></li>
-          <li><a href="../projects.html">Projects</a></li>
-          <li><a href="../about.html">About us</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="../about.html">About</a></li>
+          <!-- <li><a href="services.html">Services</a></li> -->
+           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="project-details.html">Project Details</a></li>
-              <li><a href="quote.html">Quote Form</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
+              <li><a href="./structure-engineering.html" >Structural Engineering Design</a></li>
+              <li><a href="./electrical-power-systems.html">Electrical Power Systems</a></li>
+              <li><a href="./mechanical-fabrication.html">Mechanical Fabrication</a></li>
+              <li><a href="./environmental-consultancy.html">Environmental Consultancy</a></li>
+              <li><a href="./construction-management.html">Construction Management</a></li>
             </ul>
-          </li> -->
-          <!-- <li><a href="../team.html">Careers</a></li> -->
-          <li><a href="../contact.html">Contact us</a></li>
+          </li>
+           <li class="dropdown"><a href="../markets.html" class="active"><span>Markets</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="../markets-details/community-development.html" >Community Development</a></li>
+              <li><a href="../markets-details/construction-inspection-management.html" class="active">Construction Inspection</a></li>
+              <li><a href="../markets-details/land-development.html">Land Development</a></li>
+              <li><a href="../markets-details/transportation.html">Transportation</a></li>
+              <li><a href="../markets-details/school-institution.html">School & Institution</a></li>
+            </ul>
+          </li>
+          <li><a href="../impact.html">Impact</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          
+          <!-- <li><a href="team.html">Leadership</a></li> -->
+          <li><a href="../contact.html">Contact Us</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list text-white"></i>
       </nav>
@@ -116,7 +125,7 @@
 
                 <div class="lh-1 mt-2 border-top pt-3">
                   <div class="project-category">MARKET: Construction Inspection & Management</div>
-                  <div class="project-category">SERVICES: Construction Inspection</div>
+                  <div class="project-category">SERVICES: Construction Management</div>
                 </div>
               </div>
             </div>
@@ -132,18 +141,17 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background">    
 
     <div class="container">
       <div class="row gy-5">
 
         <div class="col-lg-4">
           <div class="footer-brand">
-          <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <a href="../index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="../assets/img/logowhite.png" height="35px" alt="">
       </a>
-            
 
             <div class="social-links mt-4">
               <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
@@ -162,7 +170,7 @@
                 <h5>Company</h5>
                 <ul class="list-unstyled">
                   <li><a href="../about.html">About Us</a></li>
-                  <li><a href="../team.html">Our Team</a></li>
+                  <!-- <li><a href="team.html">Our Team</a></li> -->
                   <li><a href="#">Careers</a></li>
                   <li><a href="#">Newsroom</a></li>
                 </ul>
@@ -170,16 +178,17 @@
               <div class="col-6 col-md-4">
                 <h5>Services</h5>
                 <ul class="list-unstyled">
-                  <li><a href="service-details.html">Civil Engineering</a></li>
-                  <li><a href="../cp.html">Community Planning</a></li>
-                  <li><a href="../service-details/ci.html">Construction Inspection</a></li>
-                  <li><a href="../service-details/highway-engineer.html">Highway Engineering</a></li>
+                  <li><a href="structure-engineering.html">Structural Engineering</a></li>
+                  <li><a href="electrical-power-systems.html">Electrical Power Systems</a></li>
+                  <li><a href="mechanical-fabrication.html">Mechanical Fabrication</a></li>
+                  <li><a href="environmental-consultancy.html">Environmental Consultancy</a></li>
+                  <li><a href="construction-management.html">Construction Management</a></li>
                 </ul>
               </div>
               <div class="col-6 col-md-4">
                 <h5>Support</h5>
                 <ul class="list-unstyled">
-                  <li><a href="../404.html">Help Center</a></li>
+                  <li><a href="#">Help Center</a></li>
                   <li><a href="../contact.html">Contact Us</a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Terms of Service</a></li>
@@ -210,7 +219,6 @@
                 <!-- You can delete the links only if you've purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                <!-- Redesigned by <a href="#">Fulham HARMANY</a> -->
               </div>
             </div>
           </div>
